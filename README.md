@@ -53,4 +53,4 @@ I hold master's degrees in Information Technology and Management from Illinois I
 
 I'm interested in backend engineering, platform engineering, and AI infrastructure roles.
 
-[LinkedIn](https://www.linkedin.com/in/uradadafonte/) · Email
+[LinkedIn](https://www.linkedin.com/in/uradadafonte/)
