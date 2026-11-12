@@ -1,59 +1,46 @@
-# 👋 Hey, I'm Unai Rada Dafonte
+# Hi, I'm Unai Rada Dafonte
 
-I'm a **Backend / Systems / DevOps Engineer** with over 5 years of experience designing and automating scalable infrastructure across cloud-native and hybrid environments. I'm passionate about enabling AI/ML workflows, building robust CI/CD pipelines, and pushing the limits of what reliable systems can do.
+I'm a Software Engineer II at Pelotech, based in Chicago. I build TypeScript backends and Kubernetes platforms, with a focus on identity, authorization, and deployment automation.
 
----
+Before Pelotech, I built infrastructure for AI teams at CCC Intelligent Solutions, including hybrid Kubernetes clusters and an internal LLM platform.
 
-## 🚀 Current Focus
+## Selected work
 
-- Building resilient backend systems with **CI/CD** and **GitOps** workflows  
-- Automating cloud infrastructure with **Terraform**, **Ansible**, and **Kubernetes**
-- Develop and optimize **search systems** using tools like **Typesense**, **OpenSearch**, and **vector embeddings**
-- Design robust APIs and backend services for real-time apps, chatbots, and e-commerce platforms  
-- Empowering data science teams with scalable, secure **AI platforms**  
-- Observability and monitoring across hybrid environments with **Prometheus**, **Grafana** and the **ELK stack**  
-- Exploring search engineering, large language models (LLMs), and backend optimization  
+### Pelotech | June 2025 to present
 
----
+- Automated identity provisioning with Keycloak and SCIM to synchronize users, roles, and organizations.
+- Built TypeScript REST APIs with Express and tsoa, with access controls based on JWT claims and Open Policy Agent policies. Added integration tests to prevent authorization regressions.
+- Led the migration of a shared Keycloak Helm chart to Crossplane v2. The chart now runs in production for a client with hundreds of users.
+- Refactored backend configuration into Zod schemas with startup validation. Introduced request context and dependency injection to reduce reliance on global singletons.
 
-## 💼 Experience Highlights
+### CCC Intelligent Solutions | May 2021 to March 2025
 
-### 🏢 CCC Intelligent Solutions – *AI Enablement Systems Engineer*
-- Engineered CI/CD pipelines using GitHub Actions, accelerating AI service delivery by **36%**
-- Led migration to hybrid Kubernetes (on-prem + AWS EKS) using **Terraform** and **ArgoCD**
-- Built centralized monitoring with **Prometheus** and **Grafana** for real-time compute and storage tracking
-- Designed scalable LLM-serving architecture using **vLLM** + Kubernetes with secure API access and **Okta** integration
+- Built GitHub Actions pipelines for Kubernetes environments that accelerated AI service delivery by 36%.
+- Automated documentation deployment across 30+ repositories for 100+ AI developers.
+- Led the move to hybrid Kubernetes with AWS EKS, Terraform, on-premises clusters, and Argo CD.
+- Deployed an internal LLM platform with vLLM on Kubernetes, with a secure API and Okta access control.
 
-### 🏢 CCC Intelligent Solutions – *Enterprise Architecture Engineer Intern*
-- Configured Bare Metal and VM servers in a remote on-prem datacenter with **Ansible**, improving deployment speed and consistency
-- Constructed 
-
-### 🧠 IIT Researcher – *IT & Management Department*
-- Deployed bare-metal Kubernetes using **RedHat OKD**, with full networking + storage stack setup
-- Built real-time observability platform with **Flask** backend and **Vue.js** frontend for hybrid AI infrastructure
-
-### 🧰 Intern & Projects
-- Automated server provisioning with **Ansible** across on-prem and VMWare ESXi
-- Deployed home lab on **Proxmox**, integrating **WireGuard VPN**, **TrueNAS**, and **RHEL** VMs for RHCSA prep
-- Built internal tools and monitoring services for operational excellence
-
----
-
-## 🛠️ Tech Toolbox
+## Tools I use
 
 | Area | Tools |
-|------|-------|
-| **Languages** | Python, Bash, Go, JavaScript (Vue.js), C++, Java, Kotlin |
-| **Infra & Cloud** | Kubernetes (EKS, kubeadm, OKD), Docker, Terraform, AWS, Azure |
-| **Automation** | Ansible, GitHub Actions, GitLab CI, ArgoCD, Helm |
-| **Monitoring** | Prometheus, Grafana, ELK Stack |
-| **AI/ML** | Hugging Face, vLLM, SageMaker, Ollama, Codename Goose, MCP Servers |
-| **OS & Virtualization** | Linux (Rocky, RHEL, Ubuntu), VMWare ESXi, Proxmox |
-| **Networking** | WireGuard, Subnetting, DNS, IP config |
+| --- | --- |
+| Backend | TypeScript, Python, Bash, Go, Express, tsoa, Hono, OpenAPI, Zod |
+| Identity and access | Keycloak, SCIM, Open Policy Agent, JWT |
+| Cloud and infrastructure | AWS, Kubernetes, Docker, Helm, Crossplane, Terraform, Argo CD, Ansible |
+| Delivery and observability | GitHub Actions, GitLab CI, Prometheus, Grafana |
+| AI tools | vLLM, llama.cpp, Codex, Claude Code, T3 Code, MCP |
+
+## Background
+
+I hold master's degrees in Information Technology and Management from Illinois Institute of Technology and Telecommunications Engineering from the University of the Basque Country.
+
+- AWS Certified Solutions Architect - Associate, October 2026
+- Certified Kubernetes Administrator, in progress
 
 ---
 
 ## 📚 Books I've Read or Am Reading
+
 - **The DevOps Handbook** – Patrick Debois, Gene Kim, Jez Humble, John W. Barrios
 - **The Site Reliability Workbook: Practical Ways to Implement SRE** - Betsy Beyer, Niall Richard Murphy, David K. Rensin, Kent Kawahara & Stephen Thorne
 - **Mastering Bitcoin: Programming the Open Blockchain** - Andreas M. Antonopoulos & David A. Harding
@@ -61,10 +48,9 @@ I'm a **Backend / Systems / DevOps Engineer** with over 5 years of experience de
 - **Mastering The Lightning Network** - Andreas M Antonopoulos, Olaoluwa Osuntokun & René Pickhardt
 
 ---
-## 📫 Let's Connect
 
-- 💼 Open to roles in **Backend**, **Search**, **AI Infrastructure**, or **DevOps**
-- 🔍 Curious about opportunities to scale systems and support ML workflows
-- 🧠 Always learning, always building
+## Get in touch
 
-Thanks for stopping by!
+I'm interested in backend engineering, platform engineering, and AI infrastructure roles.
+
+[LinkedIn](https://www.linkedin.com/in/uradadafonte/) · Email
